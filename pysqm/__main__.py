@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-'''
+"""
 PySQM __main__ code
 ____________________________
 
@@ -21,14 +21,14 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with PySQM.  If not, see <http://www.gnu.org/licenses/>.
 ____________________________
-'''
+"""
 
-#from types import ModuleType
-#import sys
+# from types import ModuleType
+# import sys
 
 import pysqm.main as main
 
-while(1==1):
+while 1 == 1:
     # Loop forever to make sure the program does not die.
     try:
         main.loop()
@@ -39,4 +39,3 @@ while(1==1):
         print(e)
         print('Trying to restart')
         print('')
-
